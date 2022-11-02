@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
+
+import Layout from "./Layouts/Layout"
+import Accueil from "./Pages/Accueil/Accueil";
+import APropos from "./Pages/Apropos/Apropos";
+
+function App() { /*Apropos*/
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+      <HashRouter>
+            <Layout>
+                <Routes>
+                    <Route element={<Navigate replace to="/accueil" />} path="/" />
+                    <Route path="/accueil" element={<Accueil />}/>
+                    <Route path="/APropos" element={<APropos />}/>
+                </Routes>
+            </Layout>
+        </HashRouter>
+    </main>
     </div>
   );
 }
