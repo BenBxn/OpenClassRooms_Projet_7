@@ -1,0 +1,23 @@
+.cards{
+    width: 270px;
+    height: 270px;
+    margin: 15px;
+}
+
+.card-image {
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-titre {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+    .cards{
+        width: 90%;
+        margin: 5 px;
+    }
+}

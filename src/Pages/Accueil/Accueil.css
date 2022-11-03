@@ -1,0 +1,25 @@
+.block-logements {
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 10px;
+}
+
+.accueil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .block-logements {
+        background-color: unset;
+        flex-direction: column;
+    }
+    .banniere-accueil img {
+        height: 120px;
+    }
+}

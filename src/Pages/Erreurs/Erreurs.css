@@ -1,0 +1,36 @@
+.page404 {
+    display :flex;
+    flex-direction: column;
+    align-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+.titre404 {
+    color: #ff6060;
+    font-size: 200px;
+    margin-bottom: 20px;
+}
+
+.description404 {
+    color: #ff6060;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.lien-accueil{
+    margin: 50px auto 40px auto;
+    color: #ff6060;
+}
+
+@media screen and (max-width: 992px) {
+    .titre404 {
+        font-size: 150px;
+        margin-bottom: 0px;
+    }
+    
+    .description404 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+}
