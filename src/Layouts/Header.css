@@ -1,19 +1,19 @@
 header {
     align-items: center;
     display: inline-flex;
-    margin: 40px 10%;
-    width: 80%;
+    margin: 25px 10px 20px 10px;
+    width: 85%;
   }
   header > img {
-    height: 68px;
+    height: 60px;
   }
- 
+
   nav {
-    justify-content: flex-end;
     display: flex;
+    justify-content: flex-end;
     width: 100%;
   }
- 
+
   .lien-menu {
     color: #ff6060;
     margin: auto 25px;
@@ -22,16 +22,15 @@ header {
   .lien-menu:hover {
     text-decoration: underline;
   }
- 
+
   @media screen and (max-width: 992px) {
     header {
-      margin: 40px 2.5%;
-      width: 95%;
+      width: 90%;
     }
     header > img {
-      height: 47px;
+      height: 45px;
     }
- 
+
     .lien-menu {
       margin: auto 5px;
     }

@@ -13,7 +13,7 @@ function Dropdown({titre, description}) {
                 <span className={`fleche-dropdown ${ouvert}`} onClick={() => setOuvert(!ouvert)}>
                     <img src={fleche} alt="Ouvrir cette liste"/>
                 </span>
-                </div>
+            </div>
         {
          /* Si true > description */
         ouvert && <div className="description-dropdown">{description}</div>

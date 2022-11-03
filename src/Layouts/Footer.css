@@ -1,0 +1,32 @@
+footer {
+    background-color: #000000;
+    height: 150px;
+    width: 100%;
+}
+
+#footer-container {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-container > img {
+    height: 25px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#footer-container > p {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+    #footer-container > p {
+        margin-bottom: 35px ;
+        font-size: small;
+    }
+    #footer-container > img {
+        height: 30px;
+        padding-top: 25px;
+        }
+}
