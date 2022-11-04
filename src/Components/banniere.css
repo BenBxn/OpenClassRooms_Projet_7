@@ -14,11 +14,20 @@
 
 .texte-accueil {
     color: #ffffff;
-    /* position: absolute; */
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+    bottom: 35%;
+    font-size: 30px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 720px) {
     .banniere{
         height: 250px;
+        margin-bottom: 0px;
+    }
+    .texte-accueil {
+        font-size: 20px;
     }
 }

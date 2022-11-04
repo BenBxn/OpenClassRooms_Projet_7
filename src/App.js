@@ -7,7 +7,7 @@ import Accueil from "./Pages/Accueil/Accueil";
 import APropos from "./Pages/Apropos/Apropos";
 import Erreur404 from "./Pages/Erreurs/Erreurs";
 
-function App() { /*Apropos*/
+function App() { /*Dossier Routes?s*/
   return (
     <div className="App">
       <main>

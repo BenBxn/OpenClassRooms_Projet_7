@@ -1,7 +1,17 @@
 .cards{
-    width: 270px;
-    height: 270px;
-    margin: 15px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.gradient{
+    position: absolute;
+    background: linear-gradient(to top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .card-image {
@@ -13,11 +23,10 @@
 
 .card-titre {
     color: #ffffff;
-}
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    display: flex;
+    align-items: flex-end;
 
-@media screen and (max-width: 992px) {
-    .cards{
-        width: 90%;
-        margin: 5 px;
-    }
 }
