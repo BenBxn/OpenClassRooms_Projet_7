@@ -1,0 +1,58 @@
+
+.block-logement{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titre-logement {
+    width: 100%;
+}
+
+.information-logements {
+    flex-direction: column;
+}
+
+.nom-logement {
+    font-size: 30px;
+}
+
+.lieux {
+    font-size: 18px;
+}
+
+.avatar-propietaire {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nom-proprietaire {
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+
+.photo-propietaire {
+    border-radius: 50%;
+    height: 50px;
+    object-fit: cover;
+    width: 50px;
+}
+
+.note {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.etoile {
+    height: 20px;
+    width: 20px;
+}
+
+.description-equipement-logement {
+    list-style: none;
+    width: 90%;
+    display: flex;
+}
