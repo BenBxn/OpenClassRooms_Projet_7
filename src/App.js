@@ -20,7 +20,6 @@ function App() { /*Dossier Routes?s*/
                     <Route path="/APropos" element={<APropos />}/>
                     <Route path="/logement/:id" element={<Logement />}/>
                     <Route path="*" element={<Erreur404 />}/>
-
                 </Routes>
             </Layout>
         </HashRouter>

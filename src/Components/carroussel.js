@@ -3,7 +3,7 @@ import "./carroussel.css";
 import fleche from "../Assets/fleche-bas.svg";
 
 function Carrousel({images}) {
-
+    console.log(images)
     let [affichageImage, changementImage] = useState(0);
     let tableauImages = images.length;
 
@@ -27,6 +27,9 @@ function Carrousel({images}) {
 
     return(
         <div className="block-carrousel">
+            <div className="carrousel-image">
+
+
             {
                 tableauImages > 1 && <img className="fleche fleche-gauche" src={fleche} alt="Contenu précedént" onClick={imgPrecedente}/>
             }
@@ -40,6 +43,7 @@ function Carrousel({images}) {
             {
                 tableauImages > 1 && <img className="fleche fleche-droite" src={fleche} alt="Contenu suivant" onClick={imgSuivante}/>
             }
+            </div>
         </div>
     );
 }

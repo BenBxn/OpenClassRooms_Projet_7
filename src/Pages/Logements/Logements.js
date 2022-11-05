@@ -58,8 +58,12 @@ function Logement() {
                             </div>
                         </div>
                         <div className="description-equipement-logement">
+                            <div className="description-logement">
                             <Dropdown titre="Description" description={pageLogement?.description}/>
+                            </div>
+                            <div className="equipement-logement">
                             <Dropdown titre="Équipements" description={equipementLogement}/>
+                            </div>
                         </div>
                     </div>
                 ) 
