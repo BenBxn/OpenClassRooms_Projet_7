@@ -11,16 +11,19 @@
 .fleche {
     position: absolute;
     width: 30px;
-    z-index: 1;
+}
+.fleche:hover {
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px black);
 }
 .fleche-gauche {
     transform: rotate(90deg);
     padding: 10px;
-
 }
 .fleche-droite {
     transform: rotate(270deg);
     padding: 10px;
+    right: 5%;
 }
 
 .carrousel-photo {
