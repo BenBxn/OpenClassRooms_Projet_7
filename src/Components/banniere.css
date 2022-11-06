@@ -1,5 +1,5 @@
 .block-banniere{
-    width: 90%;
+    width: 100%;
     position: relative;
     margin: auto;
 }
@@ -16,19 +16,24 @@
     color: #ffffff;
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 25%;
     right: 20%;
-    bottom: 35%;
-    font-size: 30px;
+    bottom: 30%;
+    font-size: 35px;
     display: flex;
 }
 
 @media screen and (max-width: 720px) {
     .banniere{
-        height: 250px;
+        height: 220px;
         margin-bottom: 0px;
+        border-radius: 10px;
     }
     .texte-accueil {
         font-size: 20px;
+        right: 47%;
+        left: 5%;
+        top: 25%;
+        text-align: left;
     }
 }

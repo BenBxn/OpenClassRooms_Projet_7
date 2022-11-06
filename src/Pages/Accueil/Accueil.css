@@ -1,7 +1,11 @@
+.banniere-accueil{
+    width: 90%;
+}
+
 .block-logements {
     background-color: #f6f6f6;
     border-radius: 25px;
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -10,8 +14,10 @@
 
 .block-logements a{
     margin: 10px;
-    width: 270px;
+    width: 30%;
     height: 270px;
+    border-radius: 10px;
+
 }
 
 .accueil{
@@ -24,16 +30,16 @@
     .block-logements {
         background-color: unset;
         flex-direction: column;
-        align-items: center;
+        align-content: center;
         padding: 0
     }
     .banniere-accueil img {
-        height: 100px;
+        height: 95px;
         border-radius: 10px;
     }
     .block-logements a{
-        width: 95%;
-        height: 200px;
+        width: 100%;
+        height: 250px;
     }
     
 }
