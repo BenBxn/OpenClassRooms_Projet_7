@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/OpenClassRooms_Projet_7/static/css/main.5c563fca.css",
+    "main.js": "/OpenClassRooms_Projet_7/static/js/main.987462fc.js",
+    "static/js/787.0ce615c0.chunk.js": "/OpenClassRooms_Projet_7/static/js/787.0ce615c0.chunk.js",
+    "static/media/BanniereAPropos.png": "/OpenClassRooms_Projet_7/static/media/BanniereAPropos.cec3367708d09a3a43ff.png",
+    "static/media/BanniereAcceuil.png": "/OpenClassRooms_Projet_7/static/media/BanniereAcceuil.2a7c2688538b67ef242c.png",
+    "index.html": "/OpenClassRooms_Projet_7/index.html",
+    "static/media/fleche-bas.svg": "/OpenClassRooms_Projet_7/static/media/fleche-bas.cb0d4923f72d1dfab121adb7474a3aac.svg",
+    "main.5c563fca.css.map": "/OpenClassRooms_Projet_7/static/css/main.5c563fca.css.map",
+    "main.987462fc.js.map": "/OpenClassRooms_Projet_7/static/js/main.987462fc.js.map",
+    "787.0ce615c0.chunk.js.map": "/OpenClassRooms_Projet_7/static/js/787.0ce615c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c563fca.css",
+    "static/js/main.987462fc.js"
+  ]
+}
