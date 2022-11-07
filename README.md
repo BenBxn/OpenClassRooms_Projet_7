@@ -1,7 +1,7 @@
 # Formation Développeur Web
 ## Projet 7 - Kasa
 ------------
-##### Lien vers le site : 
+##### Lien vers le site : https://benbxn.github.io/OpenClassRooms_Projet_7/
 ------------
 
 ### 📝 Description du projet
@@ -9,7 +9,7 @@ Ce projet est le n°7 du parcours [Développeur Web](https://openclassrooms.com/
 ### 🎬 Contexte
 Kasa est dans le métier de la location d’appartements entre particuliers et recrute un développeur front-end en freelance pour développer sa nouvelle plateforme web.
 <p align="center">
-<img alt="Logo kasa" width="200px" src="https://raw.githubusercontent.com/BenBxn/OpenClassRooms_Projet_7/main/src/Assets.Logo.png" />
+<img alt="Logo kasa" width="200px" src="src/Assets/Logo.png" />
 </p>
 Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end.
 
